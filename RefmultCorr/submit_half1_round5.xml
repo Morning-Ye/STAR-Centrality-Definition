@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<job  minFilesPerProcess="50" maxFilesPerProcess="80" fileListSyntax="paths" simulateSubmission="false">
+
+	<command>
+		starver SL19b
+		./refmultCorr $FILELIST $JOBID 5
+	</command>
+
+	<stdout URL="file:/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outana/outRefmult/log/$JOBID.out" />
+	<stderr URL="file:/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outana/outRefmult/err/$JOBID.err" />
+	
+	<input URL="filelist:/star/u/zye20/allScripts/analysis/Run18/readAna/RefmultCorr/inputfiles/anatree_27gev_wcent_half1.list" />
+	<output fromScratch="*.root" toURL="file:/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outana/outRefmult/outRefQA_half1/outhist_rd5/" />
+
+	<SandBox>
+		<Package>
+		<File>file:refmultCorr*</File>
+		<File>file:refmultCorr.o</File>
+		<File>file:mBadRuns_Run18_27GeV.h</File>
+		<File>file:mEvent.o</File>
+		<File>file:inputfiles</File>
+		<File>file:cuts.h</File>
+		</Package> 
+	</SandBox>
+
+	<Generator> 
+		<Location>/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outana/outRefmult/report/</Location> 
+		<ScriptLocation>/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outana/outRefmult/csh/</ScriptLocation>
+		<ListLocation>/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outana/outRefmult/list/</ListLocation>
+	</Generator> 
+</job>
