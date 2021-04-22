@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<job  minFilesPerProcess="10" maxFilesPerProcess="12" fileListSyntax="xrootd" simulateSubmission="false">
+
+	<command>
+		starver SL19b
+		root4star -q -b ./prodRefTree.C\(\"$FILELIST\",\"reftree_$JOBID.root\"\)
+	</command>
+
+	<stdout URL="file:/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/log/$JOBID.out" />
+	<stderr URL="file:/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/err/$JOBID.err" />
+	
+	<input URL="catalog:star.bnl.gov?production=P19ib,trgsetupname=27GeV_production_2018,filename~st_physics,filetype=daq_reco_picoDst,runnumber[]19130078-19142026,storage!=hpss" nFiles="all" />
+	<output fromScratch="*.root" toURL="file:/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/outRefTree/half1/" />
+
+	<SandBox>
+		<Package>
+		<File>file:./prodRefTree.C</File>
+		<File>file:./.sl73_gcc485</File>
+		<File>file:./StRoot</File>
+		<File>file:./runnumber_run18_27GeV_all.list</File>
+		</Package> 
+	</SandBox>
+
+	<Generator> 
+		<Location>/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/report/</Location> 
+		<ScriptLocation>/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/csh/</ScriptLocation>
+		<ListLocation>/star/data01/pwg/zaochen/analysis/Run18/Run18_27GeV/list/</ListLocation>
+	</Generator> 
+</job>
