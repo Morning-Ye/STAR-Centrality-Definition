@@ -14,9 +14,10 @@
 # Instructions for  Centrality defintion
 
 Note: This document is from Zaochen's personal experience, not the STAR official instructions.
-If anybody find there are any mistakes or there are something need to be improved please feel free to contact me
+If anybody find there are any mistakes or there are something can be improved please feel free to contact me, thanks!
 (zaochen.ye.2017@gmail.com, zaochen.ye@rice.edu). Hope all users could help future people do the centrality definition
 at STAR easier with a better instruction document.
+All the codes or scripts used in this instruction can be downloaded from this github page or from Zaochen's personal RCF directory.
 
 <a id="org471b253"></a>
 
