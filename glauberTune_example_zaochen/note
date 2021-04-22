@@ -1,0 +1,5 @@
+ ./all_submit_doFastGlauberMcMaker.csh AuAu 200 0 5 1
+ ./all_doAnalysisMaker.csh AuAu_200GeV kFALSE kFALSE
+
+Use Run11 to test-->
+change efficiency from 0.14 to 0.11,and the date grefmult didn't change, but the MC data moves to more broaden.
