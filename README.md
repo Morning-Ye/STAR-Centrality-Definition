@@ -2,10 +2,10 @@
 # Table of Contents
 
 1.  [Instrctions for  Centrality defintion](#orgd09c76e)
-    1.  [Slides](#org471b253)
-    2.  [An example](#orgbc543ba)
+    1.  [Slides summarizing Centrality Definition study for Run18 27 GeV Au+Au data](#org471b253)
+    2.  [Refmult Correction in Real Data (First part) and Glauber Model Simulation (Second part)](#orgbc543ba)
     3.  [First part](#orgae8a99e)
-        1.  [Second part](#org14422d1)
+    3.  [Second part](#org14422d1)
 
 
 
@@ -16,10 +16,10 @@
 
 <a id="org471b253"></a>
 
-## Slides
+## Slides summarizing Centrality Definition study for Run18 27 GeV Au+Au data
 
 Please find the detailes about the centrality definition studies,
-here are the fulll examples for the 27 GeV study.
+here are the full example for the Run18 27 GeV study.
 
 The detailed summary about the Refmult corrections can be found at:
 <https://drupal.star.bnl.gov/STAR/system/files/Centrality_for_Run18_27GeVAuAu_ZaochenYe_20190827.pdf>
@@ -30,7 +30,7 @@ This was presented to the centrality meeting, and a follow up slides:
 
 <a id="orgbc543ba"></a>
 
-## An example
+## Refmult Correction in Real Data (First part) and Glauber Model Simulation (Second part)
 
 I prepared some instructions on the coding part, they are all used
 for the Run18 27GeV AuAu data, you may take them as a starting
