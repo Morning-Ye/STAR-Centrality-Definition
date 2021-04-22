@@ -1,7 +1,7 @@
 
 # Table of Contents
 
-1.  [Instrctions for  Centrality defintion](#orgd09c76e)
+1.  [Instructions for  Centrality defintion](#orgd09c76e)
     1.  [Slides summarizing Centrality Definition study for Run18 27 GeV Au+Au data](#org471b253)
     2.  [Refmult Correction in Real Data (First part) and Glauber Model Simulation (Second part)](#orgbc543ba)
     3.  [First part](#orgae8a99e)
