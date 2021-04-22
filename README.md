@@ -11,7 +11,7 @@
 
 <a id="orgd09c76e"></a>
 
-# Instrctions for  Centrality defintion
+# Instructions for  Centrality defintion
 
 Note: This document is from Zaochen's personal experience, not the STAR official instructions.
 If anybody find there are any mistakes or there are something need to be improved please feel free to contact me
